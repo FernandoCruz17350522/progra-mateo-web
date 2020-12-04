@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2.4</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="banner">
+  		<img src="img/fondo.png" alt"">
+  		<div class="contenedor">
+  			<div class="banner__descripcion" >
+  				<p class="contenedor">2.4</p>
+          <h1 class="contenedor">Formulario</h1>
+  			</div>
+  		</div>
+  	</div>
+    <ol align="center">
+      <embed  src="audio/AUDIOS/2.4.mp4" >
+  		</embed>
+    </ol>
+    <p class="destino__txt">Los formularios se usan en la navegación habitual por páginas web (i.e.
+      Cuando entramos en nuestro correo web, iniciamos sesión en youtube para subir un vídeo, buscamos
+      una página con google, o nos identificamos en facebook para acceder a nuestra red social, siempre
+      estamos enviando datos mediante los campos de un formulario.
+Los formularios de una página web se diseñan como el resto de la página, empleando HTML (Lenguaje de
+Etiquetas de HiperTexto).
+Elemento de un formulario HTML: <br>
+Para crear un formulario basta insertar etiquetas de apertura y cierre en tu página WEB. Todos los
+controles (campos de texto, casillas de verificación, botones de opción o botón de enviar) que añadas entre
+las etiquetas y
+formarán parte del formulario que se envía al servidor WEB. El elemento
+cuenta con muchos atributos, pero basta con utilizar 2 de ellos: action y method. Atributo action: indica al servidor a qué página debe desplazarse cuando el usuario pulsa el botón de envío del formulario. Es decir, indica qué página recibirá la información del formulario. Por supuesto, esta página debe existir en el servidor Web. Atributo method: controla la forma en que se envía la información al servidor y existen dos métodos, GET y POST. Con GET se envía la información introducida por el usuario adjuntándola a la URL después del signo “?”. Con POST se envían los valores introducidos en el formulario en el cuerpo de la solicitud HTTP. El código siguiente crea un formulario WEB ... que aún no contiene ningún campo. Cuando añadamos los campos normales en un formulario, el archivo “respuesta1.php“ recibirá mediante el método POST los valores introducidos en el formulario.
+</p>
+<ol align="center">
+  <img src="img/formulario.jpg" alt="">
+</ol>
+
+<p class="destino__txt">ACTION: <br>
+     Indica el programa que se encargará de tratar los datos del formulario. Este programa debe encontrarse en el servidor y estar escrito en algún lenguaje de programación. A este programa se pasará como parámetros los datos introducidos en el formulario y retornará un código HTML que se mostrará tras procesar el formulario. A este tipo de programas se les llama cgi-bin, y se explican en el último apartado de este manual: (CGI-BIN).
+<br><br>METHOD: <br>
+     Indica el protocolo usado para el envío de los datos. Con POST envía los datos en la entrada estándar del programa que trata el formulario y con GET los datos se pasan por parámetro, en la línea de comandos, al programa. El usar uno o otro método vendrá determinado por como son tratados los parámetros en el formulario en el (CGI-BIN). El método de uso más normal será POST.
+</p>
+  </body>
+</html>
